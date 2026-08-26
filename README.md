@@ -4,6 +4,16 @@ An AI agent for market and audience research — web research with citations, do
 
 Part of [Agency Agents OS](https://github.com/Anil-matcha/agency-agents-os), an open ecosystem of specialized AI agents for real business work.
 
+## Related Projects
+
+- [Agency Agents OS](https://github.com/Anil-matcha/agency-agents-os) — the central catalog this repo is part of.
+- [ai-sales-agent](https://github.com/SamurAIGPT/ai-sales-agent) — uses this repo's web research to deepen prospect/company profiles.
+- [ai-analytics-agent](https://github.com/SamurAIGPT/ai-analytics-agent) — turns this repo's research output into client-facing reports.
+- [ai-aeo-geo-agent](https://github.com/SamurAIGPT/ai-aeo-geo-agent) — overlaps on live-LLM web-search citation testing.
+- [MuAPI MCP docs](https://muapi.ai/docs/mcp) — connect this repo's `SKILL.md` files via MCP.
+- [MuAPI Agent Skills](https://muapi.ai/docs/agent-skills) — background on the `SKILL.md` pattern this repo uses.
+- [MuAPI access keys](https://muapi.ai/access-keys) — create the API key this agent needs.
+
 ## What this covers
 
 This repo is the umbrella for anything an agency or in-house team would call "the AI research agent": answering a research question from live web sources with citations, turning PDFs and long documents into structured Markdown for RAG, and profiling a target audience's demographics, pain points, and language for a market/persona brief.
