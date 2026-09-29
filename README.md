@@ -2,11 +2,11 @@
 
 An AI agent for market and audience research — web research with citations, document ingestion for RAG, and audience/persona profiling — backed by real web-search and document APIs.
 
-Part of [Agency Agents OS](https://github.com/Anil-matcha/agency-agents-os), an open ecosystem of specialized AI agents for real business work.
+Part of [Open Business Agents](https://github.com/Anil-matcha/open-business-agents), an open ecosystem of specialized AI agents for real business work.
 
 ## Related Projects
 
-- [Agency Agents OS](https://github.com/Anil-matcha/agency-agents-os) — the central catalog this repo is part of.
+- [Open Business Agents](https://github.com/Anil-matcha/open-business-agents) — the central catalog this repo is part of.
 - [ai-sales-agent](https://github.com/SamurAIGPT/ai-sales-agent) — uses this repo's web research to deepen prospect/company profiles.
 - [ai-analytics-agent](https://github.com/SamurAIGPT/ai-analytics-agent) — turns this repo's research output into client-facing reports.
 - [ai-aeo-geo-agent](https://github.com/SamurAIGPT/ai-aeo-geo-agent) — overlaps on live-LLM web-search citation testing.
@@ -68,9 +68,13 @@ All actions in this repo are `read-only`. Research, document conversion, and aud
 
 All three sub-agents are Coming Soon. They depend on `research.web_search`, `research.pdf_to_markdown`, and `research.audience_profile`, none of which are yet live on Muapi. This repo documents the intended interface so agents and workflows can be built against it ahead of launch.
 
+## Guides
+
+- [Build a source-grounded market brief](guides/source-grounded-market-research.md) — citation, conflict, and capability-availability checks.
+
 ## Contributing
 
-See [Agency Agents OS CONTRIBUTING.md](https://github.com/Anil-matcha/agency-agents-os/blob/main/CONTRIBUTING.md).
+See [Open Business Agents CONTRIBUTING.md](https://github.com/Anil-matcha/open-business-agents/blob/main/CONTRIBUTING.md).
 
 ## License
 
