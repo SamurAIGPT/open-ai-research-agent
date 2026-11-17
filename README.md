@@ -66,7 +66,7 @@ All actions in this repo are `read-only`. Research, document conversion, and aud
 
 ## Status and limitations
 
-All three sub-agents are Coming Soon. They depend on `research.web_search`, `research.pdf_to_markdown`, and `research.audience_profile`, none of which are yet live on Muapi. This repo documents the intended interface so agents and workflows can be built against it ahead of launch.
+All three sub-agents are Coming Soon. They depend on `research.web_search`, `research.pdf_to_markdown`, and `research.audience_profile`, none of which are yet live on Muapi. `research.web_search` is now implemented in code as `mode=search` / `deep_search` / `answer` on the `research-web-answer` endpoint, and URL-text extraction as `mode=contents`, but neither is deployed or live-verified yet, so statuses stay Coming Soon. This repo documents the intended interface so agents and workflows can be built against it ahead of launch.
 
 ## Guides
 

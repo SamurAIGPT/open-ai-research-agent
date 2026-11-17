@@ -7,6 +7,7 @@ description: Converts PDFs and long documents into structured, RAG-ready Markdow
 status: coming-soon
 muapi_capabilities:
   - research.pdf_to_markdown
+  - research-web-answer
 required_connections:
   - muapi
 permissions:
@@ -40,6 +41,7 @@ Turn a PDF or other long-form document into clean, structured Markdown that pres
 (planned, not yet live)
 
 - `research.pdf_to_markdown` — converts a PDF/document into structured Markdown, preserving heading hierarchy, tables, lists, and page/section boundaries.
+- `research-web-answer` with `mode=contents` (`urls`, max 20) — partial, URL-only coverage: returns clean extracted text for publicly reachable page/document URLs. It does **not** accept uploaded files and is not a structure-preserving PDF-to-Markdown converter, so it covers web-hosted sources only, not the full capability above.
 
 ## Workflow
 

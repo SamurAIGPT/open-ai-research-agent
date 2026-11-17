@@ -7,6 +7,7 @@ description: Synthesizes an answer to a research question from live web search a
 status: coming-soon
 muapi_capabilities:
   - research.web_search
+  - research-web-answer
 required_connections:
   - muapi
 permissions:
@@ -40,6 +41,11 @@ Answer a research question by decomposing it, searching the live web across mult
 (planned, not yet live)
 
 - `research.web_search` — issues a query against live web sources and returns ranked results with URL, title, snippet, and publish date.
+- `research-web-answer` (`POST /api/v1/research-web-answer`, one endpoint, four `mode` values) — the Muapi route that `research.web_search` maps to:
+  - `mode=search` — plain web search (`query`, optional `num_results`, `include_domains`, `exclude_domains`).
+  - `mode=deep_search` — multi-query search with reasoning (`query`, `deep_search_mode`: `deep-lite` / `deep` / `deep-reasoning`).
+  - `mode=answer` — a cited answer to one question (`question`), returning the answer plus citations.
+  - `mode=contents` — clean page text for up to 20 URLs (`urls`), for reading a source in full after search.
 
 ## Workflow
 
